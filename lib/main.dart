@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
             body: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage("assets/background.jpg"),
+                        image: AssetImage("assets/mario.jpg"),
                         fit: BoxFit.cover
                     )
                 ),
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                         child: Text(
                           "Hello it's my first screen with flutter",
                           style: TextStyle(
-                            color: Colors.cyanAccent,
+                            color: Colors.white,
                             fontSize: 25,
                           ),
                         ),
